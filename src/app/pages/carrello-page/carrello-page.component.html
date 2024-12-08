@@ -1,0 +1,23 @@
+<header>
+  <h1>Titolo del Sito</h1>
+  <div>
+    <span>Ciao {{ localStorage.getItem("username") }}!!</span>
+    <button routerLink="/shop">Torna allo Shop</button>
+  </div>
+</header>
+
+
+<div id="totale">
+  <span>Totale: {{ totale }}€</span>
+  <button (click)="onCheckout()">Checkout</button>
+</div>
+<div id="articoli">
+@for (articolo of articoli; track articolo.id) {
+  <app-articolo-carrello [nome]="articolo.nome" [descrizione]="articolo.descrizione" [prezzo]="articolo.prezzo"
+                [immagine]="articolo.immagine"></app-articolo-carrello>
+}
+</div>
+
+<div id="azioni-carrello">
+  <button (click)="resetCarrello()">Reset Carrello</button>
+</div>

@@ -1,0 +1,87 @@
+header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+#totale {
+   margin: 20px 0;
+   padding: 15px;
+   background-color: #f1f1f1;
+   border-radius: 8px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+#totale span {
+  font-size: 18px;
+  color: #333;
+}
+
+#totale button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#totale button:hover {
+  background-color: #218838;
+}
+
+#azioni-carrello {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+#azioni-carrello button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#azioni-carrello button:hover {
+  background-color: #c82333;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header span {
+  margin-right: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+header button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+header button:hover {
+  background-color: #0056b3;
+}
