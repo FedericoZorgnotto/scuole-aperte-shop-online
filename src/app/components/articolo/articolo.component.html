@@ -1,0 +1,8 @@
+<div class="product">
+  <h2>{{ nome }}</h2>
+  <p>{{ descrizione }}</p>
+  <p>Price: {{ prezzo }}</p>
+  <img [src]="immagine" alt="Image of {{ immagine }}"/>
+
+  <button (click)="addToCart()">Aggiungi al carrello</button>
+</div>

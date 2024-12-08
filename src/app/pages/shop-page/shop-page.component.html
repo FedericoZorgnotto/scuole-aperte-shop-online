@@ -1,0 +1,15 @@
+<header>
+  <h1>Titolo del Sito</h1>
+  <div>
+    <span>Ciao {{ localStorage.getItem("username") }}!!</span>
+    <button routerLink="/carrello">Vai al Carrello</button>
+  </div>
+</header>
+
+
+<div id="articoli">
+  @for (articolo of articoli; track articolo.id) {
+    <app-articolo [nome]="articolo.nome" [descrizione]="articolo.descrizione" [prezzo]="articolo.prezzo"
+                  [immagine]="articolo.immagine"></app-articolo>
+  }
+</div>
