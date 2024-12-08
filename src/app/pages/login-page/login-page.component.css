@@ -1,0 +1,8 @@
+h1 {
+  font-size: 2.5em; /* Dimensione del testo */
+  font-weight: bold; /* Spessore del testo */
+  color: #333333; /* Colore del testo */
+  text-align: center; /* Allineamento del testo */
+  margin-top: 20px; /* Margine superiore */
+  margin-bottom: 20px; /* Margine inferiore */
+}
